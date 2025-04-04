@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background-image: url('images/2.png');
+background-repeat: no-repeat;
+}
+
+h1 {
+    color:red;
+    width: fit-content;
+    
+    border: 1px solid black;
+    text-decoration: underline;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8cm;
+}
+
