@@ -27,7 +27,7 @@ h1 {
     font-size: 10em;
     margin: 0 auto;
     text-decoration: underline;
-    color:red;
+    color:rgb(123, 10, 10);
     margin-top: 15%;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    background-color: rgba(71, 67, 67, 0.5);
+    background-color: rgba(93, 6, 6, 0.5);
     line-height: 80px;
 }
 
@@ -81,6 +81,68 @@ header nav ul li a {
     font-size: 1.2em;
 }
 
+footer {
+    background-color: rgba(61, 6, 6, 0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
+
+.footerBoxes {
+    display: flex;
+    gap: 10px;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBoxes .footerTabs {
+    width: 234px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px ;
+}
+
+.footerBoxes .footerTabs:hover{
+    background-color: rgba(139, 144, 148, 0.5);
+    text-decoration: underline;
+}
+
+.footerBoxes .footerTabs:hover {
+background-color: rgba(31, 32, 32, 0.3);
+
+color: aliceblue;
+}
+
+.footerBoxes .footerTabs ul li  {
+    list-style: none;
+    margin-block-end: 10px;
+}
+
+.footerBoxes .footerTabs ul li a  {
+    text-decoration: none;
+    color: darkred;
+    display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+    font-size: larger;
+    
+}
+
+
+.footerBoxes .footerTabs ul li a:hover{
+    background-color: rgba(31, 32, 32, 0.3);
+    color: aliceblue;
+}
+
+.footerBoxes .footerTabs h3 {
+    margin-block-end: 10px ;
+    color: white;
+}
+
 header section > a {
     width: 50px;
     height: 50px;
@@ -109,5 +171,5 @@ header section img {
     color: white;
     margin: 0 auto;
     border-radius: 8px;
-    background-color: rgba(49, 50, 51, 0.5);
+    background-color: rgba(61, 6, 6, 0.5);
 }
