@@ -174,46 +174,72 @@ header section img {
     background-color: rgba(61, 6, 6, 0.5);
 }
 
-.formContainer {
-    width: 100%;
-    background-color: black;
-    min-block-size: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.formContainer .innerCont {
-    width: 400px;
-    border: 1px solid white;
+.main_body {
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.form_cont {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid gray;
     border-radius: 8px;
     padding: 10px;
 }
 
-.formContainer .innerCont .tab {
+.form_cont form .tab {
     margin-block-end: 10px;
 }
 
-.formContainer .innerCont .moreControl {
-    display: flex;
-    gap: 10px;
-    margin-block-end: 10px;
-}
-
-.formContainer .innerCont form .formBtn {
+.form_cont form .tab input {
     width: 100%;
-    padding: 5px 10px;
-    color: aliceblue;
-    background-color: black;
-    border: 1px solid white;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all .8s;
+    padding: 10px;
+    border: 1px solid rgb(34, 32, 32) ;
 }
 
-.formContainer .innerCont form .formBtn:hover {
-    background-color: darkred;
+.form_cont form .formBtn {
+    width: 100%;
+   padding: 3px 3px;
+   color: aliceblue;
+   background-color: black;
+   border: 1px solid white;
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all .8s;
+   margin-block-end: 18px;
+   font-size: 1.1em;
 }
+
+#cancelBtn {
+    width: 100%;
+    border-radius: 1px solid white;
+    
+}
+
+
+
+
+.form_cont form #cancelBtn:hover {
+    background-color: darkred;
+    letter-spacing: 2px;
+}
+
+.form_cont form #submitBtn:hover {
+    background-color: green;
+    letter-spacing: 2px;
+}
+
+.topDressPage  {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
