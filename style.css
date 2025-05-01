@@ -243,3 +243,27 @@ header section img {
     background-size: cover;
 }
 
+ .form_cont .close_btn {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    transition: all .0.s;
+ }
+
+
+.close_btn {
+    font-size: 24px;
+    color: red;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
