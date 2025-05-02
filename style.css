@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 }
 
-.topdresspage {
+.topdress.html {
     background-image: url("images/2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +17,8 @@
     user-select: none;
 }
 body {
-    background-image: url('images/2.png');
-    background-repeat: no-repeat;
+    background-image: url('images/istockphoto-2155369591-612x612.jpg');
+    background-repeat: repeat;
     background-size: 100%;
 }
 
@@ -192,6 +192,7 @@ header section img {
     border: 1px solid gray;
     border-radius: 8px;
     padding: 10px;
+    background-color: black;
 }
 
 .form_cont form .tab {
@@ -201,7 +202,7 @@ header section img {
 .form_cont form .tab input {
     width: 100%;
     padding: 10px;
-    border: 1px solid rgb(34, 32, 32) ;
+    border: 1px solid rgb(0, 0, 0) ;
 }
 
 .form_cont form .formBtn {
@@ -220,12 +221,9 @@ header section img {
 
 #cancelBtn {
     width: 100%;
-    border-radius: 1px solid white;
+    border-radius: 1px solid rgb(0, 0, 0);
     
 }
-
-
-
 
 .form_cont form #cancelBtn:hover {
     background-color: darkred;
@@ -237,33 +235,12 @@ header section img {
     letter-spacing: 2px;
 }
 
-.topDressPage  {
-    background-image: url();
+.topdress.html  {
+    background-image: url(images/download.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
- .form_cont .close_btn {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: 1;
-    color: aliceblue;
-    font-size: 1.5em;
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    transition: all .0.s;
- }
 
 
-.close_btn {
-    font-size: 24px;
-    color: red;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
+
